@@ -2,7 +2,7 @@ import '../auth/auth_util.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../list_shops/list_shops_widget.dart';
+import '../home_page/home_page_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -206,7 +206,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                     await Navigator.pushAndRemoveUntil(
                                       context,
                                       MaterialPageRoute(
-                                        builder: (context) => ListShopsWidget(),
+                                        builder: (context) => HomePageWidget(),
                                       ),
                                       (r) => false,
                                     );
@@ -279,7 +279,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                                 context,
                                                 MaterialPageRoute(
                                                   builder: (context) =>
-                                                      ListShopsWidget(),
+                                                      HomePageWidget(),
                                                 ),
                                                 (r) => false,
                                               );
@@ -346,7 +346,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                                     context,
                                                     MaterialPageRoute(
                                                       builder: (context) =>
-                                                          ListShopsWidget(),
+                                                          HomePageWidget(),
                                                     ),
                                                     (r) => false,
                                                   );
@@ -413,7 +413,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                         context,
                                         MaterialPageRoute(
                                           builder: (context) =>
-                                              ListShopsWidget(),
+                                              HomePageWidget(),
                                         ),
                                         (r) => false,
                                       );
